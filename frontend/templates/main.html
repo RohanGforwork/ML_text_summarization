@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summarization Tool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="particle-background">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <div class="fab" onclick="openPopup()">
+        <div class="fab-core"></div>
+        <div class="fab-ring"></div>
+    </div>
+
+    <!-- Pop-up -->
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">×</span>
+            <h2 class="gradient-title">Summarizer</h2>
+            <div class="input-container">
+                <textarea id="inputText" placeholder="Start typing your text here..." class="neon-input"></textarea>
+                <div class="input-border"></div>
+            </div>
+            <div class="result-container">
+                <div class="result-card glow">
+                    <p id="summaryBox">Your summary will appear here</p>
+                </div>
+                <div class="result-card glow">
+                    <p id="resultBox">Analysis results will be shown here</p>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Need help? <a href="#" class="holographic-link">Learn more</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
