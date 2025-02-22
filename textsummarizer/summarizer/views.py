@@ -58,3 +58,10 @@ class UploadDatasetView(APIView):
         dataset = request.FILES.get('dataset')
         UserDataset.objects.create(user=user, dataset=dataset)
         return Response({"message": "Dataset uploaded successfully"}, status=status.HTTP_200_OK)
+    
+    
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'main.html')
+

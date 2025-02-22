@@ -130,5 +130,11 @@ CORS_ORIGIN_ALLOW_ALL = True
 import firebase_admin
 from firebase_admin import credentials
 
-cred = credentials.Certificate("path/to/firebase-service-account.json")
+import os
+import firebase_admin
+from firebase_admin import credentials
+
+# Use raw string for the path
+cred_path = r"C:\Users\Sandesh Hegde\OneDrive\Desktop\foss\ML_text_summarization\design\backend\firebase-service-account.json"
+cred = credentials.Certificate(cred_path)
 firebase_admin.initialize_app(cred)
