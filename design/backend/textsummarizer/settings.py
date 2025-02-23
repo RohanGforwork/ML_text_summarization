@@ -20,7 +20,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD:textsummarizer/textsummarizer/settings.py
     '_summarizer',  # Your app
+=======
+    'summarizer',  # Add this line
+>>>>>>> origin/master:design/backend/textsummarizer/settings.py
 ]
 
 MIDDLEWARE = [
