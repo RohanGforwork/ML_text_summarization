@@ -121,5 +121,8 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or further inquiries, feel free to open an issue or reach out to the maintainers at `sathwiknh@gmail.com`.
+For questions or further inquiries, feel free to open an issue or reach out to the maintainers at `sathwiknh@gmail.com
+sinchanms70@gmail.com
+
+`.
 
