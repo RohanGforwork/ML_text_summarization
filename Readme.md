@@ -169,7 +169,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or further inquiries, feel free to open an issue or reach out to the maintainers at `your-email@example.com`.
+For questions or further inquiries, feel free to open an issue or reach out to the maintainers at 'rohangforwork@gmail.com`.
 
 ---
 
